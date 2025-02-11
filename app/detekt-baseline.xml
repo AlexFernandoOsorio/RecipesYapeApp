@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<SmellBaseline>
+  <ManuallySuppressedIssues></ManuallySuppressedIssues>
+  <CurrentIssues>
+    <ID>CyclomaticComplexMethod:RecipeMapper.kt$private fun extractIngredients(it: RecipeDto): List&lt;String&gt;</ID>
+    <ID>FunctionNaming:AppNavigation.kt$@Composable fun AppNavigation()</ID>
+    <ID>FunctionNaming:DetailScreen.kt$@Composable fun ErrorScreen(idRecipe: String, error: String)</ID>
+    <ID>FunctionNaming:DetailScreen.kt$@Composable fun FloatingActionButtonMap(recipe: RecipeModel, navController: NavController)</ID>
+    <ID>FunctionNaming:DetailScreen.kt$@Composable fun LoadingScreen()</ID>
+    <ID>FunctionNaming:DetailScreen.kt$@Composable fun RecipeContent( oneRecipeList: List&lt;RecipeModel&gt;, listState: LazyListState )</ID>
+    <ID>FunctionNaming:DetailScreen.kt$@Composable fun RecipeItem(oneRecipe: RecipeModel)</ID>
+    <ID>FunctionNaming:DetailScreen.kt$@OptIn(ExperimentalMaterial3Api::class) @Composable fun DetailScreenTopBar(navController: NavController)</ID>
+    <ID>FunctionNaming:DetailScreen.kt$@SuppressLint("UnusedMaterialScaffoldPaddingParameter", "UnusedMaterial3ScaffoldPaddingParameter") @Composable internal fun DetailScreen( idRecipe: String, viewModel: DetailScreenViewModel, navController: NavController )</ID>
+    <ID>FunctionNaming:HomeScreen.kt$@Composable fun ErrorScreen(error: String)</ID>
+    <ID>FunctionNaming:HomeScreen.kt$@Composable fun LoadingScreen()</ID>
+    <ID>FunctionNaming:HomeScreen.kt$@Composable fun RecipeItem(recipe: RecipeModel, onClick: () -&gt; Unit)</ID>
+    <ID>FunctionNaming:HomeScreen.kt$@Composable fun SearchResultsList( recipes: List&lt;RecipeModel&gt;, listState: LazyListState, navController: NavController )</ID>
+    <ID>FunctionNaming:HomeScreen.kt$@OptIn(ExperimentalMaterial3Api::class) @Composable internal fun HomeScreenTopBar()</ID>
+    <ID>FunctionNaming:HomeScreen.kt$@OptIn(ExperimentalMaterial3Api::class) @Composable internal fun SearchBox(searchText: String, onSearchChanged: (String) -&gt; Unit)</ID>
+    <ID>FunctionNaming:HomeScreen.kt$@SuppressLint("UnusedMaterialScaffoldPaddingParameter") @Composable internal fun HomeScreen(viewModel: HomeScreenViewModel, navController: NavController)</ID>
+    <ID>FunctionNaming:MapScreen.kt$@Composable fun MapMarker(marker: LatLng, mark: String, latitude: Double, altitude: Double)</ID>
+    <ID>FunctionNaming:MapScreen.kt$@OptIn(ExperimentalMaterial3Api::class) @Composable fun MapScreenTopBar(navController: NavController)</ID>
+    <ID>FunctionNaming:MapScreen.kt$@SuppressLint( "UnusedMaterialScaffoldPaddingParameter", "UnusedMaterial3ScaffoldPaddingParameter", "ResourceAsColor" ) @Composable internal fun MapScreen( mark: String, navController: NavController )</ID>
+    <ID>FunctionNaming:SplashScreen.kt$@Composable fun AnimationSplashContent( scaleAnimation: Animatable&lt;Float, AnimationVector1D&gt;, navController: NavController, durationMillisAnimation: Int, delayScreen: Long )</ID>
+    <ID>FunctionNaming:SplashScreen.kt$@Composable fun DesignSplashScreen( modifier: Modifier = Modifier, imagePainter: Painter, scaleAnimation: Animatable&lt;Float, AnimationVector1D&gt; )</ID>
+    <ID>FunctionNaming:SplashScreen.kt$@Composable internal fun SplashScreen( navController: NavController )</ID>
+    <ID>FunctionNaming:Theme.kt$@Composable fun CodeChallengeYapeTheme( darkTheme: Boolean = isSystemInDarkTheme(), // Dynamic color is available on Android 12+ content: @Composable () -&gt; Unit )</ID>
+    <ID>LongMethod:RecipeMapperKtTest.kt$RecipeMapperKtTest$@Test fun `when toRecipeEntity is called then verify it returns correct RecipeEntity`()</ID>
+    <ID>LongMethod:RecipeRepositoryImplTest.kt$RecipeRepositoryImplTest$@Test fun `when getRecipeListFromApi is called then verify it was called on RecipesApi`()</ID>
+    <ID>MatchingDeclarationName:AppDataBase.kt$AppDatabase : RoomDatabase</ID>
+    <ID>MatchingDeclarationName:GlobalConstans.kt$GlobalConstants</ID>
+    <ID>MatchingDeclarationName:RecipesApi.kt$RecipesAPi</ID>
+    <ID>MaxLineLength:GetRecipeListUseCaseTest.kt$GetRecipeListUseCaseTest$fun</ID>
+    <ID>SwallowedException:RecipeRepositoryImpl.kt$RecipeRepositoryImpl$e: IOException</ID>
+    <ID>SwallowedException:RecipeRepositoryImpl.kt$RecipeRepositoryImpl$e: UnknownHostException</ID>
+    <ID>SwallowedException:RecipeRepositoryImpl.kt$RecipeRepositoryImpl$t : Throwable</ID>
+    <ID>TooGenericExceptionCaught:RecipeRepositoryImpl.kt$RecipeRepositoryImpl$t : Throwable</ID>
+    <ID>UnusedParameter:NetworkModule.kt$NetworkModule$retrofit: Retrofit</ID>
+  </CurrentIssues>
+</SmellBaseline>
